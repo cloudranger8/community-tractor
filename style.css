@@ -252,11 +252,9 @@ header .logo a:active {
 }
 
 .section h2 {
-    position: relative;
-    padding-bottom: 8px;
-    color: #2a4d69 !important;
-    z-index: 10;
+    color: #ffffff !important;
 }
+
 
 
 .section h2::after {
