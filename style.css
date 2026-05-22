@@ -288,3 +288,11 @@ header .logo a:active {
 .diagram {
     border-left: 5px solid #2a4d69;
 }
+.section h2 {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #2a4d69 !important;
+    position: relative !important;
+    z-index: 999 !important;
+}
