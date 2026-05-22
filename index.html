@@ -93,6 +93,43 @@ function toggleMenu() {
         supporting advanced sensing, teleoperation, and autonomy where connectivity allows.
     </p>
 </section>
+    <section id="architecture" class="section">
+    <h2>System Architecture</h2>
+
+    <p>The Community Support Tractor integrates sensing, control, and communications into a simple, modular architecture:</p>
+
+    <pre class="diagram">
+Operator / Command Post
+        │
+        │  (Local Wi‑Fi / LTE / Starlink / Mesh)
+        ▼
+Remote Control Interface
+        │
+        ▼
+Onboard SBC (Raspberry Pi / Jetson Nano)
+        │
+        ├── Motor Controller (Drive + Steering)
+        ├── LiDAR Module (2D/3D)
+        ├── GPS + IMU
+        ├── Environmental Sensors
+        └── Telemetry Uplink
+        │
+        ▼
+Tractor Platform (Tracks, Powertrain, Chassis)
+        │
+        ▼
+Optional UAV Module
+        ├── Charging Pad
+        ├── Data Relay
+        └── Search / Mapping Payload
+    </pre>
+
+    <p>
+        This architecture supports both manual teleoperation and future semi‑autonomous 
+        modes through sensor fusion and waypoint navigation.
+    </p>
+</section>
+
 
    
 <section id="why" class="section">
