@@ -145,3 +145,62 @@ nav a:hover {
         display: block;
     }
 }
+/* HEADER BAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a4d69;
+    padding: 15px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* DESKTOP MENU */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HAMBURGER ICON */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* MOBILE MODE */
+@media (max-width: 700px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        background: #2a4d69;
+        padding: 10px;
+        width: 100%;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
