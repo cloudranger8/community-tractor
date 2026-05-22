@@ -250,10 +250,12 @@ header .logo a:active {
     font-size: 20px;
     opacity: 0.9;
 }
+
 .section h2 {
     position: relative;
     padding-bottom: 8px;
-    color: #2a4d69;
+    color: #2a4d69 !important;
+    z-index: 10;
 }
 
 
@@ -267,6 +269,10 @@ header .logo a:active {
     background: #2a4d69;
     border-radius: 2px;
 }
+
+
+
+
 .section {
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
