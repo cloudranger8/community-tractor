@@ -36,3 +36,54 @@ ul {
     margin-top: 0;
     color: #2a4d69;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a4d69;
+    padding: 15px 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hamburger {
+    font-size: 26px;
+    cursor: pointer;
+    display: none;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hamburger {
+        display: block;
+    }
+    nav {
+        display: none;
+        flex-direction: column;
+        background: #2a4d69;
+        padding: 10px;
+    }
+    nav.open {
+        display: flex;
+    }
+    nav a {
+        margin: 10px 0;
+    }
+}
