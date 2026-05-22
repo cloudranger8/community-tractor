@@ -6,6 +6,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+ <header>
+    <div class="logo">Community Support Tractor</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <nav id="menu">
+        <a href="#mission">Mission</a>
+        <a href="#variants">Variants</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<script>
+function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.classList.toggle("open");
+}
+</script>
+   
 
 <h1>Universal Community Support Tractor</h1>
 <p>A modular tracked vehicle designed for fire response, rescue, communications, and UAV operations.</p>
