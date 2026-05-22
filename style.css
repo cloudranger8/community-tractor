@@ -265,3 +265,6 @@ header .logo a:active {
     background: #2a4d69;
     border-radius: 2px;
 }
+.section {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
