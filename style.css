@@ -204,3 +204,7 @@ nav a:hover {
         display: block;
     }
 }
+.logo a {
+    color: white;
+    text-decoration: none;
+}
