@@ -250,3 +250,18 @@ header .logo a:active {
     font-size: 20px;
     opacity: 0.9;
 }
+.section h2 {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.section h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background: #2a4d69;
+    border-radius: 2px;
+}
