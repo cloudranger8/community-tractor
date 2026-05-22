@@ -299,3 +299,6 @@ h2 {
     padding: 20px !important;
     border: 3px solid red !important;
 }
+header {
+    margin-bottom: 40px;
+}
