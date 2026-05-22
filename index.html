@@ -6,15 +6,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header>
+<header>
     <div class="logo">Community Support Tractor</div>
-    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
     <nav id="menu">
         <a href="#mission">Mission</a>
         <a href="#variants">Variants</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.classList.toggle("open");
+}
+</script>
+
     <section id="mission">
     <h2>Mission</h2>
     <p>
