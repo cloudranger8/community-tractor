@@ -263,11 +263,12 @@ header .logo a:active {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -4px;
     width: 60px;
-    height: 4px;
+    height: 3px;
     background: #2a4d69;
     border-radius: 2px;
+    z-index: 1;
 }
 
 
